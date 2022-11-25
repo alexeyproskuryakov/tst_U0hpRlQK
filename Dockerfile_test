@@ -1,0 +1,6 @@
+FROM python:3.9
+COPY requirements .
+RUN pip install -r requirements
+COPY . .
+RUN pip install -r requirements_test
+CMD pytest

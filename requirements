@@ -1,0 +1,7 @@
+web3
+fastapi
+fastapi-pagination
+pydantic
+pyhumps
+sse-starlette
+uvicorn [standard]
