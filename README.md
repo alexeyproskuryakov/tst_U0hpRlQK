@@ -11,6 +11,6 @@ Returns balance in `wei` for needed address at used block number (default `lates
 
 `GET /events` with query parameter: `block_number`.
 
-Returns events of contract since block number.  
+Returns events of contract since block number via SSE.  
 
 
